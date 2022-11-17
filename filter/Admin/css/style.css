@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: cursive;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(243, 239, 253);
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.header{
+    font-size: 30px;
+    padding: 30px;
+    text-decoration: underline;
+}
+
+body form{
+    width: 80%;
+    height: 520px;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 4px 4px 36px rgb(30, 154, 185);
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+form .form-details{
+    border: 1px solid blue;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 4px 4px 40px rgb(30, 154, 185);
+}
+
+form .form-details .title-txt {
+    font-size: 20px;
+    padding: 10px 10px;
+}
+
+form .form-details .title-txt input{
+    width: 100%;
+    font-size: 20px;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+form .form-details .title-txt input:hover{
+    box-shadow: 4px 4px 20px rgb(30, 154, 185);
+}
+
+#productImage input{
+    font-size: 20px;
+    padding: 20px 0px;
+}
+
+#upload input{
+    width: 100%;
+    border-radius: 20px;
+    height: 40px;
+    background-color: rgb(26, 24, 25);
+    color: white;
+}
+
+#upload input:hover{
+    background-color: rgb(229, 235, 232);
+    color: black;
+    box-shadow: 4px 4px 36px rgb(30, 154, 185) ;
+}
